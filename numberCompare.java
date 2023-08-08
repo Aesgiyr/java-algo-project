@@ -6,13 +6,13 @@ public class numberCompare {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the first number to compare");
         int a = input.nextInt();
-        System.out.println("Girilen sayı: "+ a);
+        
         System.out.println("Enter the second number to compare");
         int b = input.nextInt();
-        System.out.println("Girilen sayı: "+ b);
+        
         System.out.println("Enter the third number to compare");
         int c = input.nextInt();
-        System.out.println("Girilen sayı: "+ c);
+        
         if (a>b){
             winner=a;
         }else{
